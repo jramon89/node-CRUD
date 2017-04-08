@@ -1,0 +1,6 @@
+<a href="/users/add">Add user</a></br>
+<ul>
+	{{#listUsers}}  
+		<li>{{name}} {{last}} <a href="/users/delete/{{id}}">Delete</a> <a href="/users/edit/{{id}}">Edit</a> </li> 
+	{{/listUsers}} 
+</ul>
